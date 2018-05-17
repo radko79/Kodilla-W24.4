@@ -1,0 +1,17 @@
+{
+  "name": "24.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js -b",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "onchange": "^4.0.0"
+  }
+}
